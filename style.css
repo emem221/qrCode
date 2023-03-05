@@ -1,0 +1,43 @@
+.container {
+  background-color: #d5e1ef;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 90%;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  width: 18rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+img {
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+  color: #696969;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
