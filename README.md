@@ -2,4 +2,6 @@
 
 #  QR Code Component
 
+### Built with HTML and SCSS
+
 ## [Link to website](https://emem221.github.io/qrCode/)
